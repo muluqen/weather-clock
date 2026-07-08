@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1f35"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Clock body -->
+  <circle cx="32" cy="32" r="30" fill="url(#bg)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <!-- Hour marks -->
+  <line x1="32" y1="4" x2="32" y2="8" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="32" y1="56" x2="32" y2="60" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="4" y1="32" x2="8" y2="32" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="56" y1="32" x2="60" y2="32" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Mini sun (weather) -->
+  <circle cx="32" cy="26" r="5" fill="url(#sun)"/>
+  <line x1="32" y1="18" x2="32" y2="16" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="26" y1="22" x2="25" y2="21" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="38" y1="22" x2="39" y2="21" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="26" y1="26" x2="24" y2="26" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="38" y1="26" x2="40" y2="26" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Clock hand (pointing ~2 o'clock) -->
+  <line x1="32" y1="32" x2="42" y2="22" stroke="rgba(255,255,255,0.8)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="32" cy="32" r="2" fill="white"/>
+  <!-- Rain drops (bottom) -->
+  <circle cx="24" cy="44" r="1.5" fill="rgba(96,165,250,0.6)"/>
+  <circle cx="32" cy="48" r="1.5" fill="rgba(96,165,250,0.6)"/>
+  <circle cx="40" cy="44" r="1.5" fill="rgba(96,165,250,0.6)"/>
+</svg>
